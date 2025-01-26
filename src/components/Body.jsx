@@ -1,5 +1,4 @@
 import Button from "./Button";
-
 const Body =()=>{
     return(
         <div className="px-24 flex justify-between">
@@ -12,7 +11,7 @@ const Body =()=>{
             <Button name={"Category"} className="border-1 border-black p-1"/>
             </div>
             <div className="w-[80%]">
-                <img className=" py-20" src="https://m.media-amazon.com/images/I/61y9sKEbAAL._AC_UY1000_.jpg" alt="shoes" />
+                <img className="pt-30" src="https://m.media-amazon.com/images/I/61y9sKEbAAL._AC_UY1000_.jpg" alt="shoes" />
             </div>
         </div>
     )

@@ -7,6 +7,7 @@ const App=()=>{
     <div>
     <Header />
     <Body />
+    <Footer />
     </div>
   )
 }
