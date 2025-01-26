@@ -1,7 +1,8 @@
-const Button =({name})=>{
+const Button =({name,className})=>{
     return(
-        <button>
-         {name}
+        <button  className={`cursor-pointer text-xs ${className}`}>
+         {name} 
+        
         </button>
     )
 }
